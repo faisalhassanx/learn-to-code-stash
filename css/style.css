@@ -3804,7 +3804,7 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-  color: #EFFFE9;
+  color: #ebf1fb;
   text-decoration: none;
 }
 
@@ -5278,11 +5278,12 @@ fieldset[disabled] .btn-default-inverse.active {
   position: relative;
   width: 100%;
   height: 190px;
-  background: #dddddd;
+  background: #ebf1fb;
   border-radius: 3px;
   margin-bottom: 30px;
   text-align: center;
   transition: all .3s ease;
+  text-decoration: none;
 }
 .category-item a {
   position: relative;
@@ -5292,17 +5293,21 @@ fieldset[disabled] .btn-default-inverse.active {
   font-size: 15px;
   font-weight: bold;
   text-transform: capitalize;
+  text-decoration: none;
 }
 .category-item a .fa {
   display: block;
   padding-bottom: 20px;
   font-size: 38px;
+  text-decoration: none;
 }
 .category-item a:hover {
-  color: inherit;
+  color: #ffffff;
+  text-decoration: none;
 }
 .category-item:hover {
-  background-color: #fdc600;
+  background-color: #181842;
+  text-decoration: none;
 }
 .view-more {
   width: 100%;
@@ -7405,38 +7410,6 @@ fieldset[disabled] .btn-default-inverse.active {
 #footer .main-footer a:hover {
   color: #fdc600;
 }
-#footer .main-footer .about-globo {
-  position: relative;
-}
-#footer .main-footer .about-globo .footer-logo {
-  position: relative;
-  background: url(../img/content/footer_logo_bg.jpg) top center no-repeat;
-  background-size: cover;
-  height: 125px;
-  text-align: center;
-  border-radius: 6px;
-  overflow: hidden;
-}
-#footer .main-footer .about-globo .footer-logo a {
-  position: relative;
-  top: 34px;
-  z-index: 30;
-}
-#footer .main-footer .about-globo .footer-logo span {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: inherit;
-  background: rgba(253, 198, 0, 0.75);
-}
-@media (max-width: 992px) {
-  #footer .main-footer .about-globo .footer-logo {
-    width: 280px;
-  }
-}
-#footer .main-footer .about-globo p {
-  margin-bottom: 0;
-}
 #footer .main-footer .latest-post {
   position: relative;
   padding-bottom: 20px;
@@ -7543,7 +7516,7 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 #footer .copyright {
   position: relative;
-  padding: 30px 0;
+  padding: 15px 0;
   background-color: #181842;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
@@ -7569,7 +7542,7 @@ fieldset[disabled] .btn-default-inverse.active {
   padding-left: 10px;
 }
 #footer .copyright ul li a:hover {
-  color: #fdc600;
+  color: #ebf1fb;
 }
 @media (max-width: 1200px) {
   #footer .copyright ul {
