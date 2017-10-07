@@ -7550,3 +7550,30 @@ fieldset[disabled] .btn-default-inverse.active {
     padding-top: 20px;
   }
 }
+
+/* Subscribe */
+.subscribe {
+  background: #181842;
+  width: 100%;
+}
+
+.subscribe h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.subscribe .btn {
+  background: #ffffff;
+  color: #181842;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.subscribe .btn:hover {
+  background: #ffffff !important;
+  color: #000000 !important;
+}
