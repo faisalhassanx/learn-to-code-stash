@@ -5289,8 +5289,8 @@ fieldset[disabled] .btn-default-inverse.active {
   position: relative;
   display: block;
   height: 100%;
-  padding: 60px 20px 0;
-  font-size: 15px;
+  padding: 45px 20px 0;
+  font-size: 20px;
   font-weight: bold;
   text-transform: capitalize;
   text-decoration: none;
@@ -7576,4 +7576,13 @@ fieldset[disabled] .btn-default-inverse.active {
 .subscribe .btn:hover {
   background: #ffffff !important;
   color: #000000 !important;
+}
+
+/* Icons */
+
+[class*=" devicon-"], [class^=devicon-] {
+  display: block;
+  padding-bottom: 20px;
+  font-size: 50px;
+  text-decoration: none;
 }
