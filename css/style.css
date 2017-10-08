@@ -3791,9 +3791,10 @@ fieldset[disabled] .btn-default-inverse.active {
 
 .navbar-inverse .navbar-brand {
   color: #ffffff;
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bold;
   letter-spacing: 2px;
+  margin-top: -10px;
 }
   
 .navbar-inverse .navbar-nav > li > a {
