@@ -3226,9 +3226,9 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   border: none;
-  color: #333333;
-  background-color: #fdc600;
-  border-color: #cccccc;
+  color: #ffffff;
+  background-color: #181842;
+  border-color: #181842;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -3236,9 +3236,9 @@ fieldset[disabled] .btn {
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #333333;
-  background-color: #ca9e00;
-  border-color: #adadad;
+  color: #181842;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-default:active,
 .btn-default.active,
@@ -3263,8 +3263,8 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #fdc600;
-  border-color: #cccccc;
+  background-color: #181842;
+  border-color: #181842;
 }
 .btn-default .badge {
   color: #fdc600;
@@ -3272,8 +3272,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background: #333333 !important;
-  color: #fdc600;
+  background: #181842 !important;
+  color: #ffffff;
 }
 .btn-default-inverse {
   border: none;
@@ -6066,9 +6066,6 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 /* contact-us style begin */
 /* --------------------------------------- */
-.contact-us-heading {
-  background: url(../img/content/contact-us-heading-bg.jpg) top center no-repeat;
-}
 .contact-us {
   position: relative;
 }
@@ -6076,6 +6073,8 @@ fieldset[disabled] .btn-default-inverse.active {
   font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 .contact-us h3 strong {
   font-weight: 800;
@@ -6085,29 +6084,7 @@ fieldset[disabled] .btn-default-inverse.active {
     margin-top: 0;
   }
 }
-.contact-us .contacy-us-map-section {
-  position: relative;
-  width: 100%;
-  height: 250px;
-  border-radius: 3px;
-  overflow: hidden;
-  margin-bottom: 20px;
-}
-.contact-us .contacy-us-map-section #contact_map_canvas {
-  height: 100%;
-  width: 100%;
-  border-radius: 3px;
-}
-.contact-us .contacy-us-map-section #contact_map_canvas .gm-style img {
-  max-width: none;
-}
-.contact-us .contacy-us-map-section #contact_map_canvas .gm-style img label {
-  display: inline;
-  width: auto;
-}
-.contact-us .contacy-us-map-section #contact_map_canvas .gmnoprint {
-  display: none;
-}
+
 .contact-us h5 {
   text-transform: capitalize;
   font-size: 16px;
@@ -6142,7 +6119,7 @@ fieldset[disabled] .btn-default-inverse.active {
 .contact-us .contact-form {
   position: relative;
   padding: 30px;
-  background: #f8f8f8;
+  background: #ebf1fb;
   border-radius: 3px;
   border: 1px solid #dddddd;
 }
