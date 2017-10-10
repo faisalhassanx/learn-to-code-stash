@@ -5322,7 +5322,7 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 #page-content {
   position: relative;
-  padding: 30px 0 50px 0;
+  padding: 10px 0 50px 0;
 }
 .page-content {
   position: relative;
@@ -5973,9 +5973,6 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 /* about-us content begin */
 /* --------------------------------------- */
-.about-us-heading {
-  background: url(../img/content/about-us-heading-bg.jpg) top center no-repeat;
-}
 .about-us {
   position: relative;
   width: 100%;
@@ -5987,6 +5984,8 @@ fieldset[disabled] .btn-default-inverse.active {
   font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
+  margin-top: -10px;
+  margin-bottom: 20px;
 }
 .about-us > h3 strong {
   font-weight: 800;
@@ -6002,12 +6001,13 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 .about-us .team {
   padding-top: 30px;
+  margin-bottom: 30px;
 }
 .about-us .member-details {
   position: relative;
   text-align: center;
 }
-.about-us .member-details .porfile-pic {
+.about-us .member-details .profile-pic {
   position: relative;
   margin: 0 auto;
   width: 265px;
@@ -6016,18 +6016,18 @@ fieldset[disabled] .btn-default-inverse.active {
   border-radius: 3px;
   text-align: center;
 }
-.about-us .member-details .porfile-pic img {
+.about-us .member-details .profile-pic img {
   width: 100%;
   height: 100%;
 }
-.about-us .member-details .porfile-pic ul {
+.about-us .member-details .profile-pic ul {
   position: relative;
   top: -80px;
   margin-left: 10px;
   z-index: 50;
   text-align: center;
 }
-.about-us .member-details .porfile-pic ul li {
+.about-us .member-details .profile-pic ul li {
   height: 50px;
   width: 50px;
   background-color: #e4b200;
@@ -6035,10 +6035,10 @@ fieldset[disabled] .btn-default-inverse.active {
   border-radius: 3px;
   margin-right: 7px;
 }
-.about-us .member-details .porfile-pic ul li:hover {
+.about-us .member-details .profile-pic ul li:hover {
   background-color: #ffd231;
 }
-.about-us .member-details .porfile-pic ul li a {
+.about-us .member-details .profile-pic ul li a {
   color: #333333;
   line-height: 50px;
   font-size: 20px;
@@ -7531,6 +7531,7 @@ fieldset[disabled] .btn-default-inverse.active {
 #footer .copyright p {
   margin: 0;
   float: left;
+  padding-top: 10px;
 }
 #footer .copyright p a {
   color: #ffffff;
@@ -7547,8 +7548,8 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 @media (max-width: 1200px) {
   #footer .copyright ul {
-    float: left;
-    padding-top: 20px;
+    float: right;
+    padding-top: 10px;
   }
 }
 
