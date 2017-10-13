@@ -3787,6 +3787,7 @@ fieldset[disabled] .btn-default-inverse.active {
 .navbar-inverse {
   background-color: #181842;
   border: none;
+  padding: 5px 0;
 }
 
 .navbar-inverse .navbar-brand {
