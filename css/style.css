@@ -5083,7 +5083,6 @@ fieldset[disabled] .btn-default-inverse.active {
   position: relative;
 }
 .product-details-list .tab-pane h2 {
-  position: absolute;
   left: 0;
   top: 0;
   z-index: 999;
