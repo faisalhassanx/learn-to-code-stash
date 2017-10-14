@@ -4825,11 +4825,9 @@ fieldset[disabled] .btn-default-inverse.active {
   }
 }
 .pagination-center {
-  position: relative;
-  padding-top: 20px;
-  text-align: center;
-  float: right;
-  width: 69%;
+  padding-top: 40px;
+  width: 50%;
+  margin: 10px auto !important;
 }
 /* product-details */
 .product-details {
@@ -5067,14 +5065,6 @@ fieldset[disabled] .btn-default-inverse.active {
 .product-details .advertisement {
   display: none !important;
 }
-/* bootstrap tab */
-.tab-pane {
-  display: none !important;
-  transition: all .3s ease;
-}
-.tab-pane.active {
-  display: block !important;
-}
 /* product-details */
 .product-details-list {
   position: relative;
@@ -5126,11 +5116,11 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 .product-details-list .tab-pane .row {
   position: relative;
-  padding-top: 115px;
+  padding-top: 20px;
 }
 @media (max-width: 480px) {
   .product-details-list .tab-pane .row {
-    padding-top: 65px;
+    padding-top: 15px;
   }
 }
 .product-details-list .tab-pane .col-sm-4 {
@@ -5196,12 +5186,12 @@ fieldset[disabled] .btn-default-inverse.active {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 0 2px;
+  padding: 4px 2px;
   margin: 0;
-  font-size: 11px;
+  font-size: 12px;
   font-weight: 700;
-  background: #fdc600;
-  color: #333333;
+  background: #181842;
+  color: #ffffff;
   text-transform: uppercase;
   text-align: center;
 }
