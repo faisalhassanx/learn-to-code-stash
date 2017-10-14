@@ -1,3 +1,3 @@
-# Globo
+# Stash
 
-* [Homepage](//uouapps.github.io/globo/)
+* Learn To Code Stash
