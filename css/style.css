@@ -2869,7 +2869,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 a {
-  color: #333333;
+  color: #000000;
   text-decoration: none;
 }
 a:hover,
@@ -7554,5 +7554,12 @@ fieldset[disabled] .btn-default-inverse.active {
   display: block;
   padding-bottom: 20px;
   font-size: 50px;
+  text-decoration: none;
+}
+
+img.icons {
+  height: 60px;
+  padding-top: 5px;
+  padding-bottom: 10px;
   text-decoration: none;
 }
