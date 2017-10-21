@@ -2862,7 +2862,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #333333;
+  color: #000000;
   background-color: #ffffff;
   width: 100%;
   overflow-x: hidden;
@@ -7555,4 +7555,17 @@ fieldset[disabled] .btn-default-inverse.active {
   padding-bottom: 20px;
   font-size: 50px;
   text-decoration: none;
+}
+
+p {
+  font-size: 1.3em;
+}
+
+a.content {
+  text-decoration: underline;
+}
+
+img#android-img {
+  float: right;
+  margin: 0 0 10px 10px;
 }
