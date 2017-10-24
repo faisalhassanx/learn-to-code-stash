@@ -7565,7 +7565,7 @@ a.content {
   text-decoration: underline;
 }
 
-img#android-img {
+img.path-img {
   float: right;
   margin: 0 0 10px 10px;
 }
