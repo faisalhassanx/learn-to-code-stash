@@ -3053,7 +3053,6 @@ ol {
   margin-top: 0;
   margin-bottom: 20px;
   padding-left: 1.42857143;
-  list-style-position: inside;
 }
 ul ul,
 ol ul,
@@ -7569,4 +7568,8 @@ a.content {
 img.path-img {
   float: right;
   margin: 0 0 10px 10px;
+}
+
+li {
+  font-size: 1.3em;
 }
