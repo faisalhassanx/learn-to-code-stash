@@ -3799,7 +3799,7 @@ fieldset[disabled] .btn-default-inverse.active {
 .navbar-inverse .navbar-nav > li > a {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.1em !important;
   font-weight: normal;
 }
 
@@ -4903,7 +4903,7 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 .product-details .tab-pane h3 {
   font-size: 30px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-top: 25px;
 }
 .product-details .tab-pane h3 span {
@@ -7529,7 +7529,7 @@ fieldset[disabled] .btn-default-inverse.active {
 
 .subscribe h3 {
   color: #ffffff;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-top: 30px;
   font-weight: bold;
   letter-spacing: 1px;
@@ -7572,4 +7572,9 @@ img.path-img {
 
 li {
   font-size: 1.3em;
+}
+
+.suggest {
+  min-height: 195px;
+  padding-top: 30px;
 }
