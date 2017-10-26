@@ -3186,6 +3186,8 @@ button {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  color: #181842;
+  background-color: #ffffff
 }
 .btn:focus,
 .btn:active:focus,
@@ -3202,7 +3204,6 @@ button {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #333333;
   text-decoration: none;
 }
 .btn:active,
@@ -3224,9 +3225,9 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   border: none;
-  color: #ffffff;
-  background-color: #181842;
-  border-color: #181842;
+  color: #181842;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 .btn-default:hover,
 .btn-default:focus,
