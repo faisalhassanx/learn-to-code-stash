@@ -87,7 +87,6 @@ body {
 article,
 aside,
 details,
-figcaption,
 figure,
 footer,
 header,
@@ -4846,53 +4845,6 @@ fieldset[disabled] .btn-default-inverse.active {
   color: #333333;
   text-transform: uppercase;
 }
-.product-details .tab-pane .single-product figure figcaption {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 50;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background-color: rgba(253, 198, 0, 0.8);
-}
-.product-details .tab-pane .single-product figure figcaption a {
-  position: relative;
-  padding: 6px 10px 6px 33px;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  font-weight: bold;
-}
-.product-details .tab-pane .single-product figure figcaption a .fa {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 29px;
-  font-weight: bold;
-  border-right: 1px solid #333333;
-}
-.product-details .tab-pane .single-product figure figcaption a:hover {
-  background: #333333;
-  color: #fdc600;
-}
-.product-details .tab-pane .single-product figure figcaption .bookmark {
-  position: relative;
-  top: 70px;
-}
-.product-details .tab-pane .single-product figure figcaption .bookmark .fa {
-  padding: 7px 9px;
-}
-.product-details .tab-pane .single-product figure figcaption .read-more {
-  position: relative;
-  top: 90px;
-}
-.product-details .tab-pane .single-product figure figcaption .read-more .fa {
-  padding: 7px 11px;
-}
-.product-details .tab-pane .single-product:hover figure figcaption {
-  display: block;
-}
 .product-details .tab-pane .single-product h4,
 .product-details .tab-pane .single-product h5 {
   margin: 0;
@@ -5018,9 +4970,7 @@ fieldset[disabled] .btn-default-inverse.active {
   width: 100%;
   height: 100%;
 }
-.product-details-list .tab-pane .single-product figure figcaption {
-  display: none;
-}
+
 .product-details-list .tab-pane .single-product h4,
 .product-details-list .tab-pane .single-product h5 {
   margin: 0;
@@ -5155,62 +5105,8 @@ fieldset[disabled] .btn-default-inverse.active {
   width: 100%;
   height: 100%;
 }
-.company-product .single-product figure figcaption,
-.company-portfolio .single-product figure figcaption {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 50;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background-color: rgba(253, 198, 0, 0.8);
-}
-.company-product .single-product figure figcaption a,
-.company-portfolio .single-product figure figcaption a {
-  position: relative;
-  padding: 6px 10px 6px 33px;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  font-weight: bold;
-}
-.company-product .single-product figure figcaption a .fa,
-.company-portfolio .single-product figure figcaption a .fa {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 29px;
-  font-weight: bold;
-  border-right: 1px solid #333333;
-}
-.company-product .single-product figure figcaption a:hover,
-.company-portfolio .single-product figure figcaption a:hover {
-  background: #333333;
-  color: #fdc600;
-}
-.company-product .single-product figure figcaption .bookmark,
-.company-portfolio .single-product figure figcaption .bookmark {
-  position: relative;
-  top: 70px;
-}
-.company-product .single-product figure figcaption .bookmark .fa,
-.company-portfolio .single-product figure figcaption .bookmark .fa {
-  padding: 7px 9px;
-}
-.company-product .single-product figure figcaption .read-more,
-.company-portfolio .single-product figure figcaption .read-more {
-  position: relative;
-  top: 90px;
-}
-.company-product .single-product figure figcaption .read-more .fa,
-.company-portfolio .single-product figure figcaption .read-more .fa {
-  padding: 7px 11px;
-}
-.company-product .single-product:hover figure figcaption,
-.company-portfolio .single-product:hover figure figcaption {
-  display: block;
-}
+
+
 .company-product .single-product h4,
 .company-portfolio .single-product h4,
 .company-product .single-product h5,
@@ -5371,53 +5267,7 @@ fieldset[disabled] .btn-default-inverse.active {
   color: #333333;
   text-transform: uppercase;
 }
-.featured-listing .single-product figure figcaption {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 50;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background-color: rgba(253, 198, 0, 0.8);
-}
-.featured-listing .single-product figure figcaption a {
-  position: relative;
-  padding: 6px 10px 6px 33px;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  font-weight: bold;
-}
-.featured-listing .single-product figure figcaption a .fa {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 29px;
-  font-weight: bold;
-  border-right: 1px solid #333333;
-}
-.featured-listing .single-product figure figcaption a:hover {
-  background: #333333;
-  color: #fdc600;
-}
-.featured-listing .single-product figure figcaption .bookmark {
-  position: relative;
-  top: 70px;
-}
-.featured-listing .single-product figure figcaption .bookmark .fa {
-  padding: 7px 9px;
-}
-.featured-listing .single-product figure figcaption .read-more {
-  position: relative;
-  top: 90px;
-}
-.featured-listing .single-product figure figcaption .read-more .fa {
-  padding: 7px 11px;
-}
-.featured-listing .single-product:hover figure figcaption {
-  display: block;
-}
+
 .featured-listing .single-product h4,
 .featured-listing .single-product h5 {
   margin: 0;
