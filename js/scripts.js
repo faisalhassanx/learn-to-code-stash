@@ -89,50 +89,6 @@
     $CategoryTtoggle.removeClass('active');
   });
 
-  // home map tab-content hide
-  //---------------------------------------------
-  $('.accordion-tab li > div a').on('click', function(){
-
-    $CategoryTtoggle.removeClass('active');
-  });
-
-
-  // our-partners slider customize
-  //-----------------------------------------
-  $("#partners-slider").owlCarousel({
-    autoPlay: 3000,
-    items : 6,
-    itemsDesktop : [1199,4],
-    itemsDesktopSmall : [979,3],
-    itemsTablet: [600,2]
-  });
-
-
-  // home slider section
-  //-------------------------------------------
-  var homeSlide = $("#home-slider");
-
-  homeSlide.owlCarousel({
-
-    navigation : false, // Show next and prev buttons
-    slideSpeed : 600,
-    paginationSpeed : 600,
-    singleItem:true
-
-  });
-
-
-  // Custom Navigation Events
-    $(".next").click(function(){
-      homeSlide.trigger('owl.next');
-    });
-    $(".prev").click(function(){
-      homeSlide.trigger('owl.prev');
-    });
-
-
-
-
   // UOU Selects
   // ---------------------------------------------------------
   $.fn.uouCustomSelect = function () {
