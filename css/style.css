@@ -4663,22 +4663,32 @@ fieldset[disabled] .btn-default-inverse.active {
   border-radius: 3px;
   transition: all .3s ease;
 }
-.pagination li a {
+.pagination > li > a, .pagination > li > span {
   line-height: 30px;
+  color: #ffffff;
+  background-color: #181842
 }
 .pagination li a .fa {
   position: relative;
   top: -2px;
 }
 .pagination li a:hover {
-  color: #333333;
+  color: #181842;
+  background-color: #ffffff;
 }
 .pagination li.active,
 .pagination li:hover {
-  background-color: #fdc600;
   border: 0;
   border: 1px solid transparent;
 }
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, 
+.pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+  color: #181842;
+  background-color: #ffffff
+}
+
+.pagination>li>span
 @media (max-width: 768px) {
   .pagination {
     display: none;
@@ -6091,7 +6101,8 @@ fieldset[disabled] .btn-default-inverse.active {
   text-transform: uppercase;
 }
 .blog-list h2 a:hover {
-  color: #4d4d4d;
+  color: #000000;
+  text-decoration: underline;
 }
 @media (max-width: 768px) {
   .blog-list h2 {
