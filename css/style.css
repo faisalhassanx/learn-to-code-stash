@@ -6260,38 +6260,7 @@ fieldset[disabled] .btn-default-inverse.active {
     font-size: 18px;
   }
 }
-.company-heading-view .company-slider-content .company-map-view {
-  position: absolute;
-  top: 0;
-  left: 33.33%;
-  height: 100%;
-  width: 33.33%;
-}
-.company-heading-view .company-slider-content .company-map-view #company_map_canvas {
-  height: 100%;
-  width: 100%;
-}
-.company-heading-view .company-slider-content .company-map-view #company_map_canvas .gmnoprint {
-  display: none;
-}
-.company-heading-view .company-slider-content .company-map-street {
-  position: absolute;
-  top: 0;
-  left: 66.66%;
-  height: 100%;
-  width: 33.33%;
-}
-.company-heading-view .company-slider-content .company-map-street #company_map_canvas_street {
-  height: 100%;
-  width: 100%;
-}
-.company-heading-view .company-slider-content .company-map-street #company_map_canvas_street .gm-style img {
-  max-width: none;
-}
-.company-heading-view .company-slider-content .company-map-street #company_map_canvas_street .gm-style img label {
-  display: inline;
-  width: auto;
-}
+
 .company-profile {
   padding-top: 30px;
 }
