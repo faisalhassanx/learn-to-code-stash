@@ -185,33 +185,6 @@
   });
 
 
-
-
-  // company-heading slider content
-  //--------------------------------------------------------
-  $('.button-content button').on('click',function(e) {
-    console.log('clickes');
-
-    if ($(this).hasClass('general-view-btn')) {
-      $(this).addClass('active')
-      .siblings().removeClass('active')
-      .parent().parent().next().css("left","0%");
-
-
-    } else if($(this).hasClass('map-view-btn')) {
-      $(this).addClass('active')
-      .siblings().removeClass('active')
-      .parent().parent().next().css("left","-100%");
-
-    } else if($(this).hasClass('male-view-btn')) {
-      $(this).addClass('active')
-     .siblings().removeClass('active')
-     .parent().parent().next().css("left","-200%");
-    }
-
-  });
-
-
   $("a").click(function(e){
     if($(this).attr("href") === '#'){
       e.preventDefault();
