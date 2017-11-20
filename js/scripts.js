@@ -89,24 +89,6 @@
     $CategoryTtoggle.removeClass('active');
   });
 
-  // UOU Selects
-  // ---------------------------------------------------------
-  $.fn.uouCustomSelect = function () {
-    var $select = $(this);
-
-    $select.wrap('<div class="uou-custom-select"></div>');
-
-    var $container = $select.parent('.uou-custom-select');
-
-    $container.append('<ul class="select-clone"></ul>');
-
-    var $list = $container.children('.select-clone'),
-      placeholder = $select.data('placeholder') ? $select.data('placeholder') : $select.find('option:eq(0)').text();
-
-    $('<input class="value-holder" type="text" disabled="disabled" placeholder="' + placeholder + '"><i class="fa fa-chevron-down"></i>').insertBefore($list);
-
-    var $valueHolder = $container.children('.value-holder');
-
     // Create clone list
     $select.find('option').each(function () {
       var $this = $(this);
