@@ -3721,29 +3721,7 @@ fieldset[disabled] .btn-default-inverse.active {
 #header {
   position: relative;
 }
-/* home-with-slider style begin */
-/* --------------------------------------- */
-.home-with-slide {
-  position: relative;
-  z-index: 100;
-  background: #fff;
-}
-@media (max-width: 992px) {
-  .home-with-slide {
-    border-radius: 3px 3px 0 0;
-    padding-left: 30px;
-    padding-top: 30px;
-  }
-  .home-with-slide .change-view .filter-input input {
-    top: -60px;
-  }
-}
-.home-with-slide .custom-search {
-  padding: 20px 0 0 25px;
-}
-.home-with-slide .tab-pane .row {
-  padding-top: 0 !important;
-}
+
 /* categories */
 /* ------------------------------------ */
 #categories {
