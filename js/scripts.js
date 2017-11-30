@@ -61,27 +61,6 @@
   });
 
 
-
-  // Category toggle
-  //-------------------------------------------------
-
-  $('.category-toggle button').on('click',function(){
-    $('.category-toggle').toggleClass('active');
-  });
-
-  var $CategoryTtoggle = $('.category-toggle');
-
-  $CategoryTtoggle.each(function () {
-    var $this = $(this);
-
-    $this.on('clickoutside touchendoutside', function () {
-      if ($this.hasClass('active')) { $this.removeClass('active'); }
-    });
-  });
-
-
-
-
   //home slide tab-content hide
   //---------------------------------------
   $('.home-tab li > a').on('click', function(){
@@ -150,23 +129,7 @@
 
 
 
-  // style switcr for list-grid view
-  //--------------------------------------------------
-  $('.change-view button').on('click',function(e) {
-
-    if ($(this).hasClass('grid-view')) {
-      $(this).addClass('active');
-      $('.list-view').removeClass('active');
-      $('.page-content .view-switch').removeClass('product-details-list').addClass('product-details');
-
-    } else if($(this).hasClass('list-view')) {
-      $(this).addClass('active');
-      $('.grid-view').removeClass('active');
-      $('.page-content .view-switch').removeClass('product-details').addClass('product-details-list');
-      }
-  });
-
-
+  
   $("a").click(function(e){
     if($(this).attr("href") === '#'){
       e.preventDefault();
