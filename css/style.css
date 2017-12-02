@@ -3776,7 +3776,6 @@ fieldset[disabled] .btn-default-inverse.active {
   background-color: #ffffff
 }
 
-.pagination>li>span
 @media (max-width: 768px) {
   .pagination {
     display: none;
