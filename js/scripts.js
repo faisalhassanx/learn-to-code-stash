@@ -97,22 +97,6 @@
       }
     });
 
-    // Links
-    if ($select.hasClass('links')) {
-      $select.on('change', function () {
-        window.location.href = select.val();
-      });
-    }
-
-    $select.on('change', function () {
-      cosole.log(chnaged);
-      cosole.log($(this).val());
-    });
-  };
-
-  $('select').each(function () {
-    $(this).uouCustomSelect();
-  });
 
   // sub-categories remove and active class
   //-----------------------------------------------------
