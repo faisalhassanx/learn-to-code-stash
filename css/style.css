@@ -3875,7 +3875,7 @@ fieldset[disabled] .btn-default-inverse.active {
 }
 .product-details .tab-pane .row {
   position: relative;
-  padding-top: 115px;
+  padding-top: 20px;
 }
 @media (max-width: 480px) {
   .product-details .tab-pane .row {
